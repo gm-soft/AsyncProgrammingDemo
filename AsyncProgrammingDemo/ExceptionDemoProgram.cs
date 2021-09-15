@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace AsyncProgrammingDemo
 {
-    public class ExceptiPonDemoProgram : IProgram
+    public class ExceptionDemoProgram : IProgram
     {
         public async Task ExecuteAsync()
         {
