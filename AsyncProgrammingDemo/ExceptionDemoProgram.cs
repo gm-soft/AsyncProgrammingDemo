@@ -14,7 +14,9 @@ namespace AsyncProgrammingDemo
                 var task2 = WaitForSmthAsync(2);
                 var task3 = WaitForSmthAsync(3);
 
+                Console.WriteLine("getting all tasks");
                 allTasks = Task.WhenAll(task1, task2, task3);
+                Console.WriteLine("before awaiting");
                 await allTasks;
             }
             catch (Exception e)
